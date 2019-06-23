@@ -1,0 +1,217 @@
+body{
+ 
+ background-image:url(img/programmer.jpg);
+    background-repeat: no-repeat;
+    background-color: #25252d;
+     margin: 0 !important;
+   height: 100%;
+
+   
+}
+
+.wrapper{
+   min-height: 650px;
+    max-height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+  margin: 0 !important;
+}
+
+.logo{
+    color: azure;
+    font-size: 60px;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+}
+
+.logo{
+     float: left;
+    color: azure;
+    font-size: 60px;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+}
+
+.logo2{
+    float: left;
+    color: #2867cc;
+    font-size: 60px;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    
+}
+
+.content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    
+    clear: both;
+}
+
+.quote{
+  font-family: 'B612 Mono', monospace;
+    text-align: center;
+}
+
+#important{
+    
+    float: left;
+    width: 600px;
+
+}
+
+
+.about{
+    float: left;
+    width: 356px;
+    height: 160px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'lato';
+    margin-top: 20px;
+    text-align: center;
+    PADDING-top: 50px;
+  
+    
+}
+
+.icon{
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+    width: 246px;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'lato';
+    color: azure;
+     font-weight: 700;
+
+}
+
+.icon2{
+    
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 80px;
+    height: 175px;
+    border-radius: 5px;
+     text-align: center;
+    font-size: 20px;
+    font-family: 'lato';
+    color: azure;
+     font-weight: 700;
+
+}
+
+#skills{
+    background-color: #2867cc;
+    border: 2px solid #2867cc;
+   
+     transition-duration:0.4s;
+}
+
+    #skills:hover {
+    background-color: #1a212b;
+    border: 2px solid #ffa500;
+    color: #ffa500;
+    transition-duration:0.4s;
+}
+
+#contact{
+    background-color: #ffa500;
+      border: 2px solid #ffa500;
+     transition-duration:0.4s;
+ 
+}
+
+    #contact:hover{
+    background-color:#1a212b;
+    color:#ffa500;
+    border: 2px solid #ffa500;
+     transition-duration:0.4s;
+}
+
+#projects{
+    background-color: #ffa500;
+      border: 2px solid #ffa500;
+  transition-duration:0.4s;
+}
+
+    #projects:hover{
+    background-color: #1a212b;
+    border: 2px solid #ffa500;
+        color: #ffa500;
+    font-weight: 700;
+ transition-duration:0.4s;
+     
+}
+
+#cv{
+    
+    background-color: #2867cc;
+      border: 2px solid #2867cc;
+     transition-duration:0.4s;
+    
+}
+
+    #cv:hover{
+    background-color:  #1a212b;
+    border: 2px solid azure;
+    color: azure;
+    transition-duration:0.4s;
+}
+
+#github{
+       background-color: #211F1F;
+      border: 2px solid #ffa500;
+      transition-duration:0.2s;
+    }
+    
+    #github:hover{
+          background-color: #1a212b;
+    border: 2px solid #ffa500;
+        color: #ffa500;
+    font-weight: 700;
+ transition-duration:0.2s;
+ 
+    }
+#linkedin{
+    background-color: #0e76a8;
+    border: 2px solid azure;
+    transition-duration:0.2s;
+    }
+    #linkedin:hover{
+        background-color: #1188c1;
+        transition-duration:0.2s;
+}
+#stackoverflow{
+    background-color: #ffa500;
+    border: 2px solid azure;
+    transition-duration:0.2s;
+}
+    #stackoverflow:hover{
+        transition-duration:0.2s;
+        background-color: #ffc300;
+       
+      
+}
+
+
+.blink{
+    float: left;
+    color: #2867cc;
+    font-size: 60px;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    animation: blink 1.2s infinite;
+        
+	}
+@keyframes blink{
+0%{opacity: 1;} 
+50%{opacity: 0;}
+100%{opacity: 1;}
+    
